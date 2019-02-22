@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+     /*"build" and "test" stages omitted*/
     stages {
         stage('Deploy - Dev') {
             steps {
